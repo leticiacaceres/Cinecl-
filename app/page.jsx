@@ -1,4 +1,3 @@
-
 'use client'
 import { useState } from 'react'
 
@@ -9,8 +8,8 @@ export default function Home() {
     { titulo: "Vingadores", imagem: "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg", descricao: "Os maiores heróis da Terra se unem para salvar o mundo de uma invasão alienígena." },
     { titulo: "Barbie", imagem: "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg", descricao: "Barbie e Ken vão para o mundo real e descobrem a vida fora da Barbielândia." },
     { titulo: "Oppenheimer", imagem: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg", descricao: "A história do pai da bomba atômica e os dilemas morais da ciência." },
-    { titulo: "Homem Aranha", imagem: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1lTcLeRw2dgbwB.jpg", descricao: "Peter Parker enfrenta vilões do multiverso em uma aventura épica." },
-    { titulo: "Duna 2", imagem: "https://image.tmdb.org/t/p/w500/czembWxOuMozlO1JbGgWzX4i3Dq.jpg", descricao: "Paul Atreides lidera a revolução para controlar o planeta deserto mais importante do universo." },
+    { titulo: "Homem Aranha", imagem: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", descricao: "Peter Parker enfrenta vilões do multiverso em uma aventura épica." },
+    { titulo: "Duna 2", imagem: "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg", descricao: "Paul Atreides lidera a revolução para controlar o planeta deserto mais importante do universo." },
     { titulo: "Deadpool", imagem: "https://image.tmdb.org/t/p/w500/3E53WEZJqP2w0sABmQO0PFUou8r.jpg", descricao: "O mercenário mais folgado do mundo salva o dia do seu jeito." },
     { titulo: "Coraline", imagem: "https://image.tmdb.org/t/p/w500/6LFsCnwWKAhOHFyWtp1UQuZqKuT.jpg", descricao: "Coraline descobre uma porta secreta para um mundo paralelo sombrio." },
     { titulo: "Harry Potter", imagem: "https://image.tmdb.org/t/p/w500/wu1uJM8fNJEO0GA5RHbYbwUjRCB.jpg", descricao: "O menino que sobreviveu descobre que é um bruxo e vai para Hogwarts." },
