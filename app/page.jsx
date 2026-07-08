@@ -5,16 +5,16 @@ export default function Home() {
   const [filmeSelecionado, setFilmeSelecionado] = useState(null)
   
   const filmes = [
-    { titulo: "Vingadores", imagem: "https://lumiere-a.akamaihd.net/v1/images/p_avengers_endgame_19751_8a0d88ab.jpeg", descricao: "Os maiores heróis da Terra se unem para salvar o mundo de uma invasão alienígena." },
-    { titulo: "Barbie", imagem: "https://br.web.img3.acsta.net/pictures/23/05/25/18/28/0996523.jpg", descricao: "Barbie e Ken vão para o mundo real e descobrem a vida fora da Barbielândia." },
-    { titulo: "Oppenheimer", imagem: "https://br.web.img2.acsta.net/pictures/23/05/11/16/34/1081246.jpg", descricao: "A história do pai da bomba atômica e os dilemas morais da ciência." },
-    { titulo: "Homem Aranha", imagem: "https://br.web.img3.acsta.net/pictures/23/04/06/16/49/5900273.jpg", descricao: "Peter Parker enfrenta vilões do multiverso em uma aventura épica." },
-    { titulo: "Duna 2", imagem: "https://br.web.img2.acsta.net/pictures/24/01/24/10/28/4932151.jpg", descricao: "Paul Atreides lidera a revolução para controlar o planeta deserto mais importante do universo." },
-    { titulo: "Deadpool", imagem: "https://br.web.img3.acsta.net/pictures/24/04/22/18/11/5852432.jpg", descricao: "O mercenário mais folgado do mundo salva o dia do seu jeito." },
-    { titulo: "Coraline", imagem: "https://br.web.img3.acsta.net/pictures/09/02/20/17/38/204942.jpg", descricao: "Coraline descobre uma porta secreta para um mundo paralelo sombrio." },
-    { titulo: "Harry Potter", imagem: "https://br.web.img3.acsta.net/pictures/14/07/22/12/43/580254.jpg", descricao: "O menino que sobreviveu descobre que é um bruxo e vai para Hogwarts." },
-    { titulo: "Divertida Mente", imagem: "https://br.web.img3.acsta.net/pictures/15/06/01/16/03/120123.jpg", descricao: "As emoções de uma menina trabalham juntas dentro da cabeça dela." },
-    { titulo: "Velozes e Furiosos", imagem: "https://br.web.img3.acsta.net/pictures/23/03/06/17/07/3285040.jpg", descricao: "Família é tudo. E corrida de carro também." }
+    { titulo: "Vingadores", imagem: "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg", descricao: "Os maiores heróis da Terra se unem para salvar o mundo de uma invasão alienígena." },
+    { titulo: "Barbie", imagem: "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg", descricao: "Barbie e Ken vão para o mundo real e descobrem a vida fora da Barbielândia." },
+    { titulo: "Oppenheimer", imagem: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg", descricao: "A história do pai da bomba atômica e os dilemas morais da ciência." },
+    { titulo: "Homem Aranha", imagem: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", descricao: "Peter Parker enfrenta vilões do multiverso em uma aventura épica." },
+    { titulo: "Duna 2", imagem: "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg", descricao: "Paul Atreides lidera a revolução para controlar o planeta deserto mais importante do universo." },
+    { titulo: "Deadpool", imagem: "https://image.tmdb.org/t/p/w500/3E53WEZJqP2w0sABmQO0PFUou8r.jpg", descricao: "O mercenário mais folgado do mundo salva o dia do seu jeito." },
+    { titulo: "Coraline", imagem: "https://image.tmdb.org/t/p/w500/6LFsCnwWKAhOHFyWtp1UQuZqKuT.jpg", descricao: "Coraline descobre uma porta secreta para um mundo paralelo sombrio." },
+    { titulo: "Harry Potter", imagem: "https://image.tmdb.org/t/p/w500/wu1uJM8fNJEO0GA5RHbYbwUjRCB.jpg", descricao: "O menino que sobreviveu descobre que é um bruxo e vai para Hogwarts." },
+    { titulo: "Divertida Mente", imagem: "https://image.tmdb.org/t/p/w500/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg", descricao: "As emoções de uma menina trabalham juntas dentro da cabeça dela." },
+    { titulo: "Velozes e Furiosos", imagem: "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg", descricao: "Família é tudo. E corrida de carro também." }
   ]
 
   if (filmeSelecionado) {
