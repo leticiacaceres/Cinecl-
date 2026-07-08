@@ -1,3 +1,4 @@
+
 'use client'
 import { useState } from 'react'
 
@@ -11,9 +12,9 @@ export default function Home() {
     { titulo: "Homem Aranha", imagem: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1lTcLeRw2dgbwB.jpg", descricao: "Peter Parker enfrenta vilões do multiverso em uma aventura épica." },
     { titulo: "Duna 2", imagem: "https://image.tmdb.org/t/p/w500/czembWxOuMozlO1JbGgWzX4i3Dq.jpg", descricao: "Paul Atreides lidera a revolução para controlar o planeta deserto mais importante do universo." },
     { titulo: "Deadpool", imagem: "https://image.tmdb.org/t/p/w500/3E53WEZJqP2w0sABmQO0PFUou8r.jpg", descricao: "O mercenário mais folgado do mundo salva o dia do seu jeito." },
-    { titulo: "Coraline", imagem: "https://image.tmdb.org/t/p/w500/4Uqs3UjQqRlCwYJkR3H3cYcC3aW.jpg", descricao: "Coraline descobre uma porta secreta para um mundo paralelo sombrio." },
+    { titulo: "Coraline", imagem: "https://image.tmdb.org/t/p/w500/6LFsCnwWKAhOHFyWtp1UQuZqKuT.jpg", descricao: "Coraline descobre uma porta secreta para um mundo paralelo sombrio." },
     { titulo: "Harry Potter", imagem: "https://image.tmdb.org/t/p/w500/wu1uJM8fNJEO0GA5RHbYbwUjRCB.jpg", descricao: "O menino que sobreviveu descobre que é um bruxo e vai para Hogwarts." },
-    { titulo: "Divertida Mente", imagem: "https://image.tmdb.org/t/p/w500/9YpWc6tYQ7sV5JcK9k8qY8qY8qY.jpg", descricao: "As emoções de uma menina trabalham juntas dentro da cabeça dela." },
+    { titulo: "Divertida Mente", imagem: "https://image.tmdb.org/t/p/w500/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg", descricao: "As emoções de uma menina trabalham juntas dentro da cabeça dela." },
     { titulo: "Velozes e Furiosos", imagem: "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg", descricao: "Família é tudo. E corrida de carro também." }
   ]
 
