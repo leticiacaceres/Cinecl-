@@ -1,3 +1,4 @@
+   "use client"
 export default function Home() {
   return (
     <main style={{background: '#000', color: '#fff', minHeight: '100vh', padding: '40px', textAlign: 'center'}}>
