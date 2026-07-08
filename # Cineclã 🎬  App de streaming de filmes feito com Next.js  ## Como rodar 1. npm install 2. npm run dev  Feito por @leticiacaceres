@@ -1,0 +1,14 @@
+# Cineclã 🎬
+
+App de streaming de filmes feito com Next.js
+
+## Como rodar o projeto
+1. Instalar dependências: `npm install`
+2. Rodar local: `npm run dev`
+
+## Tecnologias
+- Next.js 14
+- React
+- Supabase
+
+Feito por @leticiacaceres
